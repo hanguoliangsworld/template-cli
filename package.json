@@ -1,0 +1,27 @@
+{
+  "name": "template-cli",
+  "version": "1.0.0",
+  "description": "提供react、vue项目模版",
+  "bin": {
+    "template-cli": "./bin/template-cli.js"
+  },
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xiaozuanfeng",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^9.4.1",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "6.2.2",
+    "ora": "^3.2.0",
+    "rimraf": "^3.0.2"
+  },
+  "keywords": [
+    "cli",
+    "react",
+    "vue"
+  ]
+}

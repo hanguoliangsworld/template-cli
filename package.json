@@ -1,9 +1,9 @@
 {
-  "name": "template-cli",
+  "name": "hgl-templates-cli",
   "version": "1.0.0",
   "description": "提供react、vue项目模版",
   "bin": {
-    "template-cli": "./bin/template-cli.js"
+    "hgl-templates-cli": "./bin/hgl-templates-cli.js"
   },
   "private": false,
   "scripts": {

@@ -1,4 +1,4 @@
-# template-cli
-npm install template-cli -g
+# hgl-templates-cli
+npm install hgl-templates-cli -g
 
-template-cli create projectName
+hgl-templates-cli create projectName

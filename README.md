@@ -1,2 +1,4 @@
 # template-cli
-a cli to download template of vue/react
+npm install template-cli -g
+
+template-cli create projectName

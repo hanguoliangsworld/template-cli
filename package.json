@@ -1,6 +1,6 @@
 {
   "name": "hgl-templates-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "提供react、vue项目模版",
   "bin": {
     "hgl-templates-cli": "./bin/hgl-templates-cli.js"

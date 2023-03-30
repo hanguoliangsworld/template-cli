@@ -17,7 +17,7 @@ program
        type: 'list',
        name: 'frameTemplate',
        message: '请选择框架类型',
-       choices: ['Vue3',  'React']
+       choices: ['Vue3',  'React', 'Trao']
      }
    ])
    .then((answer) => {
@@ -28,6 +28,9 @@ program
           break;
         case 'React':
           downloadUrl='direct:https://github.com/hanguoliangsworld/react-ts.git'
+          break;
+        case 'Trao':
+          downloadUrl='direct:https://github.com/hanguoliangsworld/taro-template.git'
           break;
         default:
           break;
@@ -46,5 +49,5 @@ program
       )
    })
 })
-program.version('1.0.0').parse(process.argv)
+program.version('1.0.1').parse(process.argv)
 

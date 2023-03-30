@@ -41,6 +41,7 @@ program
       spinner.start()
       download( downloadUrl, projectName,{ clone: true },function (err) {
           if (err) {
+            console.log('模板下载失败',err)
             spinner.fail(err,'模板下载失败')
           } else {
             spinner.succeed('模板下载成功')
